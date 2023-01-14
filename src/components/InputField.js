@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 
-const InputField = (props) => {
-    const { islogedin, user } = props
+const InputField = () => {
     const [inputLogin, setInputLogin] = useState('');
     const onChangehandler = (e) => {
         setInputLogin(e.target.value);
@@ -9,11 +8,10 @@ const InputField = (props) => {
     return (
         <>
             <input
-                className='w-[509px] h-[65px] bg-gray-0 rounded-full font-display font-normal text-sm my-5 px-8 '
+                className='w-[509px] h-[65px] bg-gray-0 rounded-full font-display font-normal text-sm my-5 px-8  outline-none '
                 placeholder='Enter wallet address '
                 onChange={onChangehandler} >
             </input>
-            {console.log(inputLogin + ", user  " + user)}
         </>
     )
 }

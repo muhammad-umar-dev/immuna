@@ -1,0 +1,1122 @@
+[
+  {
+    "id": 1,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 2,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 3,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 4,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 5,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 6,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 7,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 8,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 9,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 10,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 11,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 12,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 13,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 14,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 15,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 16,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 17,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 18,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 19,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 20,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 21,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 22,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 23,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 24,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 25,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 26,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 27,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 28,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 29,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 30,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 31,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 32,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 33,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 34,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 35,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 36,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 37,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 38,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 39,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 40,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 41,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 42,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 43,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 44,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 45,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 46,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 47,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 48,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 49,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 50,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 51,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 52,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 53,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 54,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 55,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 56,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 57,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 58,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 59,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 60,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 61,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 62,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 63,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 64,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 65,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 66,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 67,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 68,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 69,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 70,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 71,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 72,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 73,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 74,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 75,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 76,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 77,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 78,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 79,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 80,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 1,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 2,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 3,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 4,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 5,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 6,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 7,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 8,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 9,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 10,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 11,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 12,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 13,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 14,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 15,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 16,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 17,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 18,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 19,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 20,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 21,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 22,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 23,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 24,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 25,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 26,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 27,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 28,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 29,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 30,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 31,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 32,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 33,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 34,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 35,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 36,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 37,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 38,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 39,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 40,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 41,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 42,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 43,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 44,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 45,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 46,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 47,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 48,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 49,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 50,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 51,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 52,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 53,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 54,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 55,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 56,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 57,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 58,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 59,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 60,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 61,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 62,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 63,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 64,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 65,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 66,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 67,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 68,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 69,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 70,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 71,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 72,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 73,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 74,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 75,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 76,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "1.104008 WETH / 2,888.28 USDC",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 77,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "300 DAIDAI / 300 USDC",
+    "riskStatus": "Red"
+  },
+  {
+    "id": 78,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "500 BUSD / 500 USDT",
+    "riskStatus": "Yellow"
+  },
+  {
+    "id": 79,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "0.624822 WETH / 339,97585406 1INCH",
+    "riskStatus": "Green"
+  },
+  {
+    "id": 80,
+    "protocol": "Uniswap",
+    "pool": "0x75f5...1666",
+    "balance": "100 DAIDAI / 0,03837881 WETH",
+    "riskStatus": "Green"
+  }
+]

@@ -1,25 +1,32 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
-import Dashboard from './components/Dashboard';
-import Home from './components/Home';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Alerts from './pages/Alerts';
+import Defend from './pages/Defend';
+import Protect from './pages/Protect';
+import Dashboard from './pages/Dashboard';
+import NoteState from './context/NoteState';
 
 function App() {
-  const islogedin = true;
-  const user = 'cipherSavvy';
+
   return (
-    <>
+
+    <NoteState>
       <Router>
-        {/* <Home /> */}
         <Routes>
           <Route>
-            <Route exact path='/' element={<Home islogedin={islogedin} user={user} />} ></Route>
-            <Route exact path='/dashboard' element={<Dashboard islogedin={islogedin} user={user} />} ></Route>
+            <Route exact path='/login' element={<Login />} ></Route>
+            <Route exact path='/home' element={<Home />} ></Route>
+            <Route exact path='/dashboard' element={<Dashboard />} ></Route>
+            <Route exact path='/alerts' element={<Alerts />} ></Route>
+            <Route exact path='/defend' element={<Defend />} ></Route>
+            <Route exact path='/protect' element={<Protect />} ></Route>
           </Route>
         </Routes>
       </Router>
-      {console.log("app.js ", islogedin, user)}
 
-    </>
+    </NoteState>
   )
 }
 
