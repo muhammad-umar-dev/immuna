@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import SearchIcon from '../assets/search.svg'
 
 const Search = (props) => {
-    const { width, height } = props
+    const { width, height, search, setSearch } = props
+    const onHandleSearch = (event) => {
+        setSearch(event.target.value)
+    }
+    // console.log(search)
     return (
-        <div className={`flex w-[${width}] h-[${height}] items-center px-3 py-3 rounded-full border bg-white-0 border-gray-0`} >
+        <div className={`flex ${width} ${height} items-center px-3 py-3 rounded-full border bg-white-0 border-gray-0`} >
             <div className=''><img src={SearchIcon} alt="" />  </div>
-            <input className="outline-none ml-3 w-full" type="search" placeholder="Search..." />
+            <input className="outline-none ml-3 w-full" type="search" placeholder="Search..." onChange={onHandleSearch} />
         </div >
 
 

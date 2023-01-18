@@ -13,9 +13,10 @@ const Home = () => {
     return (
         <div >
             <Nav navStatus={'Home'} />
-            <div className='flex h-full bg-gray-darker-0'>
+            <div className='flex w-[10%] lg:w-1/5 justify-center bg-white-0 '>
                 <Sidenav />
             </div>
+
         </div>
     )
 }

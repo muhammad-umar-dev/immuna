@@ -7,7 +7,7 @@ import closeIcon from '../assets/closeIcon.svg'
 const Status = (props) => {
     let [isOpen, setIsOpen] = useState(true)
     const { balance, riskStatus } = props
-    console.log('Modal' + balance + ' balance: ' + riskStatus + ' risk status: ')
+    // console.log('Modal' + balance + ' balance: ' + riskStatus + ' risk status: ')
 
     function closeModal() {
         setIsOpen(false)
