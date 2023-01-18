@@ -130,7 +130,7 @@ const Dashboard = (props) => {
                                     <div className=' flex ml-6'>
                                         <img className='w-[48px] h-[17px]' src={EthIcon} alt='ethicon' />
                                     </div>
-                                    <div className=' flex w-[151px] h-[44px] rounded-full px-7 font-display font-normal text-sm text-center items-center justify-end bg-blue-medium-0 '>{ETHVALUE}
+                                    <div className=' flex flex-auto ml-2 w-[151px] h-[44px] rounded-full px-7 font-display font-normal text-sm text-center items-center justify-end bg-blue-medium-0 '>{ETHVALUE}
                                     </div>
 
                                 </div>
@@ -142,15 +142,15 @@ const Dashboard = (props) => {
 
                         {/* Table */}
                         <div className='flex flex-col mx-4 mt-4  drop-shadow-[0_0_14px_rgba(0,0,0,0.07)]'>
-                            <Table rowsPerPage={rowsPerPage} onHandleSort={onHandleSort} />
+                            <Table rowsPerPage={rowsPerPage} onHandleSort={onHandleSort} isOff={isOff} isAssendingSort={isAssendingSort} />
                         </div>
                     </div>
                     {/* Footer */}
-                    <footer className='flex items-end mb-20  mx-5 ' >
+                    <footer className='flex items-end  mb-20  mx-5 sm:mx-0 md:w-screen lg:w-full md:px-6 ' >
                         <div className='flex w-full flex-col md:flex-row items-center'>
-                            <div className='flex w-full justify-center md:justify-left  md:w-[50%] h-9 '>
+                            <div className='flex w-full justify-center sm:justify-left  md:w-[50%] h-9 '>
                                 {/* Item display per page */}
-                                <div className='flex items-center  md:w-[50%] md:justify-start '>
+                                <div className='flex items-center  sm:w-[50%] sm:justify-start '>
                                     <label className='font-display font-normal text-xs '>Show</label>
                                     {/* Dropdown */}
                                     <div className="dropdown-center ml-2 ">
