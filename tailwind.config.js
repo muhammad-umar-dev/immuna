@@ -1,11 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ['./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'],
+  plugins: [
+    require('tw-elements/dist/plugin')
+  ],
   theme: {
     fontFamily: {
       'display': ['Inter'],
       'table-risk': ['Lato']
     },
+
     colors: {
       'gray': ['#D1D1D1'],
       'gray-light': ['#EFEFEF'],

@@ -18,10 +18,10 @@ const Login = () => {
                 </div>
                 {/* //Right Side */}
                 <div className='flex flex-col  items-center  absolute md:relative  w-screen md:w-[55%] xl:w-[50%] 2xl:w-[55%] '>
-                    <div className='flex w-full  h-[400px]  md:h-1/4 sm:h-1/2 justify-end'>
+                    <div className='flex w-full  h-[400px]  sm:h-1/2 justify-end'>
                         <img className='mt-0 ' src={EllipseBlue} alt="" />
                     </div>
-                    <div className='flex absolute  mt-14 sm:relative sm:-mt-44 md:mt-1 flex-col justify-center items-center '>
+                    <div className='flex absolute  mt-14 sm:relative sm:-mt-44 md:-mt-40 lg:-mt-72 flex-col justify-center items-center '>
                         <WalletLogin className='flex w-full f-full bg-gray-darker-0 md:w-[70%] 2xl:w-full z-10 drop-shadow-[0_0_10px_rgba(0,0,0,0.07)]' />
                         <div className=' -mt-72 xl:flex xl:-mt-24 2xl:-ml-20 2xl:-mt-20 '>
                             <img className=' ' src={EllipseYellow} alt="" />
