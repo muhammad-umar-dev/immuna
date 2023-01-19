@@ -18,7 +18,7 @@ const Table = (props) => {
         setBalance(item.balance)
         setRiskStatus(item.riskStatus)
     }
-    console.log('isOff: ' + isOff + " ,isAssendingOrder: " + isAssendingSort)
+    // console.log('isOff: ' + isOff + " ,isAssendingOrder: " + isAssendingSort)
 
     return (
         <div className='flex flex-col w-full '>
