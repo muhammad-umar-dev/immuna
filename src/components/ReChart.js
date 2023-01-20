@@ -39,8 +39,8 @@ const ReCharts = () => {
     // const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
 
     return (
-        <div className='w-full  flex flex-col'>
-            <div className='flex w-full justify-center items-center font-display font-semibold text-5xl py-4'><h1>Data</h1></div>
+        <div className='w-full  flex flex-col justify-center items-center'>
+            <div className='flex w-full justify-center items-center font-display font-semibold text-5xl py-4 '><h1>Data</h1></div>
 
             <div className='flex w-full h-full flex-col lg:flex-row justify-center items-center'>
                 {/* Pie Chart */}

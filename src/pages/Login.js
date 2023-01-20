@@ -10,7 +10,7 @@ const Login = () => {
         <div className='  bg-gray-darker-0'>
             <Nav className='drop-shadow-sm' />
             {/* //Left Side  bg-background-blue-0 */}
-            <div className='flex h-full bg-gray-light-0'>
+            <div className='flex h-full   bg-gray-light-0'>
                 <div className='flex  w-full md:w-[45%] xl:w-[50%] 2xl:w-[45%]  bg-gray-dark-0'>
                     <div className='flex mt-0 w-full h-full bg-[rgba(196, 196, 196, 0.2)]'>
                         <img className='opacity-80 max-h-full max-w-full   object-cover sm:w-full ' src={bitCoinImg} alt="BitCoinImage" />
