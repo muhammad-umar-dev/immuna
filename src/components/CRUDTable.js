@@ -3,18 +3,20 @@ import Alerts from './AlertsMessage';
 import DeleteIcon from '../assets/deleteIcon.svg'
 import EditIcon from '../assets/editIcon.svg'
 import CRUD from './CRUD';
+import Delete from '../modal/Delete';
 let CryptoJS = require("crypto-js");
 
 
 const CRUDTable = (props) => {
     const { tableData, setTableData, } = props
-    const updatedtableData = [...tableData];
-    const [id, setID] = useState('')
+    const updatedtableData = [...tableData]
     const [name, setName] = useState('')
     const [password, setPassword] = useState('')
     const [isUpdate, setIsUpdate] = useState(false)
     const [alert, setAlert] = useState(false);
-    // console.log(tableData)
+    const [isVisible, setisVisible] = useState(false)
+    const [isDelete, setIsDelete] = useState(false)
+    console.log(isDelete)
     const showAlert = (message, type) => {
         setAlert({
             message: message,
@@ -55,19 +57,23 @@ const CRUDTable = (props) => {
 
     // Delete table data
     const onHandleDelete = (info) => {
+        setisVisible(current => !current)
         updatedtableData.filter(row => {
             if (row.name === info.name) {
-                updatedtableData.splice(row, 1)
+                console.log(isDelete)
+                if (isDelete === true) {
+                    updatedtableData.splice(row, 1)
+                    setTableData(updatedtableData)
+                    setIsDelete(false)
+                } else {
+                    showAlert("Data not delete", "Success")
+                }
             }
-            showAlert("Data is deleted", 'Success');
-            return setTableData(updatedtableData)
         })
-
     }
     const tableRows = tableData.map((info, index) => {
         return (
             <tr className={`font-display font-light lg:font-normal text-sm lg:text-sm h-[61px] flex w-full justify-between ${info.id % 2 ? "bg-white-0-0" : "bg-blue-table-0"}`} key={index}>
-                {/* <td className='w-1/4 justify-center items-center flex'>{info.id}</td> */}
                 <td className='w-1/3 justify-center items-center flex'>{info.name}</td>
                 <td className='w-1/3 justify-center items-center flex truncate'>{info.password}</td>
                 <td className='w-1/4 justify-evenly items-center flex'><button onClick={() => onHandleUpdate(info)} className='ml-2 bg-blue-medium-0 text-white font-mono p-2 rounded'><img src={EditIcon} alt="" /></button> <button onClick={() => onHandleDelete(info)} className='bg-blue-medium-0 text-white font-mono p-2 rounded'><img src={DeleteIcon} alt="" /></button></td>
@@ -79,6 +85,8 @@ const CRUDTable = (props) => {
 
     return (
         <div className='flex flex-col w-full h-screen   '>
+            {isVisible && <Delete isDelete={isDelete} setIsDelete={setIsDelete} />}
+
             {alert && <Alerts className='w-full h-14' alert={alert} />}
             <label className='font-display py-4 font-normal text-lg lg:text-5xl text-center'>Create a new user</label>
             <div className='w-full flex flex-col lg:flex-row  justify-center items-center '>
