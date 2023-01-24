@@ -2,9 +2,6 @@ import React from 'react'
 import { dashboardIcon, defendIcon, protectIcon, } from './Icon'
 import { NavLink } from 'react-router-dom';
 
-
-// import Icon from './Icon'
-
 const DashboardNav = () => {
     const list = [
         { id: 1, item: 'Dashboard', Icon: dashboardIcon, path: '/dashboard' },
