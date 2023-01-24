@@ -1,28 +1,19 @@
 import React from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import { Fragment, useState } from 'react'
+import { Fragment } from 'react'
 
 const Delete = (props) => {
-    let [isOpen, setIsOpen] = useState(true)
-    const { isDelete, setIsDelete } = props
+    const { isOpen, doAction, closeModal } = props
 
     const onClickDelete = () => {
-        setIsDelete(true)
-        closeModal()
+        doAction(true)
+        closeModal(false)
     }
 
     const onClickCancel = () => {
-        setIsDelete(false)
-        closeModal()
-    }
-    function closeModal() {
-        setIsOpen(false)
+        closeModal(false)
     }
 
-
-    // function openModal() {
-    //     setIsOpen(true)
-    // }
     return (
         <Transition appear show={isOpen} as={Fragment}>
 
@@ -50,10 +41,10 @@ const Delete = (props) => {
                         >
                             <Dialog.Panel className="transform overflow-hidden rounded-2xl bg-white  text-left align-middle shadow-xl transition-all">
                                 <Dialog.Title className="font-display font-normal text-2xl flex justify-center mx-8">
-                                    <h3 className='font-display font-extrabold  justify-center   pt-6 items-center'>Confirmation</h3> </Dialog.Title>
+                                    <h3 className='font-display font-bold  justify-center   pt-6 items-center'>Confirmation</h3> </Dialog.Title>
 
                                 <div className=" rounded-lg mx-10 my-4 p-4">
-                                    <h1 className='font-display font-extrabold '>DO YOU WANT TO <strong>"DELETE"</strong> CURRENT USER? </h1>
+                                    <h1 className='font-display font-medium '>DO YOU WANT TO <strong>"DELETE"</strong> CURRENT USER? </h1>
                                 </div>
                                 <div className='bg-gray-font-0 h-[1px]' />
 

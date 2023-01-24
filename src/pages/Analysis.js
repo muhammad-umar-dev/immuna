@@ -5,15 +5,15 @@ import Sidenav from '../components/Sidenav'
 import { useNavigate } from 'react-router-dom'
 import ReCharts from '../components/ReChart'
 
-const Defend = () => {
+const Analysis = () => {
     const userStatus = useContext(noteContext)
     const route = useNavigate()
     useEffect(() => {
-        userStatus.islogedin === true ? route('/defend') : route('/login')
-    }, [])
+        userStatus.islogedin === true ? route('/analysis') : route('/login')
+    }, [userStatus.islogedin, route])
     return (
         <>
-            <Nav navStatus={'Defend'} />
+            <Nav navStatus={'Analysis'} />
             <div className="flex bg-background-blue-0">
                 <div className='flex w-[10%] lg:w-1/5 justify-center bg-white-0 '>
                     <Sidenav />
@@ -29,4 +29,4 @@ const Defend = () => {
     )
 }
 
-export default Defend
+export default Analysis

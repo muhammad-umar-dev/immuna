@@ -1,5 +1,5 @@
 import React from 'react'
-import { dashboardIcon, alertIcon, defendIcon, protectIcon, } from './Icon'
+import { dashboardIcon, defendIcon, protectIcon, } from './Icon'
 import { NavLink } from 'react-router-dom';
 
 
@@ -8,9 +8,8 @@ import { NavLink } from 'react-router-dom';
 const DashboardNav = () => {
     const list = [
         { id: 1, item: 'Dashboard', Icon: dashboardIcon, path: '/dashboard' },
-        { id: 2, item: 'Alerts', Icon: alertIcon, path: '/alerts' },
-        { id: 3, item: 'Defend', Icon: defendIcon, path: '/defend' },
-        { id: 4, item: 'Protect', Icon: protectIcon, path: '/protect' },
+        { id: 2, item: 'Analysis', Icon: defendIcon, path: '/analysis' }, //defend =>Analysis
+        { id: 3, item: 'Signup', Icon: protectIcon, path: '/signup' },
     ]
 
     return (

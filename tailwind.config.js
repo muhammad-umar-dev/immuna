@@ -41,6 +41,13 @@ module.exports = {
         'md': '0px 1px 10px 0px rgba(74, 74, 74, 0.07)',
         'lg': '0px 2px 10px 0px rgba(132,132,132,0.07)',
       },
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        '7': '1fr repeat(2, 2fr) 3fr repeat(2, 1fr) 3fr',
+
+        // Complex site-specific column configuration
+        'footer': '200px minmax(900px, 1fr) 100px',
+      }
 
     },
   },

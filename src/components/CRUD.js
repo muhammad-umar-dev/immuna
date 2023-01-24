@@ -1,8 +1,12 @@
 import React from 'react'
 
+
+
 const CRUD = (props) => {
     const { name, setName, password, setPassword, isUpdate, setIsUpdate, showAlert, updatedtableData } = props
     const values = { name, password }
+
+
 
     const onChangeName = (event) => { setName(event.target.value) }
 
@@ -39,6 +43,7 @@ const CRUD = (props) => {
         <form className=' flex  flex-col justify-center  rounded ' >
 
             <div className='flex flex-col justify-center items-center lg:mt-20'>
+
                 <input
                     className={`flex  h-12 lg:w-[450px] lg:h-[65px] rounded-full  bg-gray-light-0  font-normal text-sm px-8 py-4 justify-center items-center outline-none `}
                     type='text/plain' required
