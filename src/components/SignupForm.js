@@ -134,9 +134,6 @@ const SignupForm = (props) => {
                                         id="role"
                                         name="role"
                                         type="dropdown"
-                                        // value={formik.values.role}
-                                        // onChange={formik.handleChange}
-                                        // onBlur={formik.handleBlur}
                                         {...formik.getFieldProps('role')}
 
                                     >

@@ -1,12 +1,10 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect } from 'react'
 import noteContext from '../context/noteContext'
 import Nav from '../components/Nav'
 import Sidenav from '../components/Sidenav'
 import { useNavigate } from 'react-router-dom'
-import SignupForm from '../components/SignupForm'
 import SignupTable from '../components/SignupTable'
 
-let CryptoJS = require("crypto-js");
 
 const Signup = () => {
 
@@ -35,8 +33,6 @@ const Signup = () => {
                         <h1 className='text-2xl font-bold '>SIGNUP</h1></div>
 
                     <div className='w-full'>
-                        {/* <SignupForm tableData={tableData} setTableData={setTableData} addRows={addRows} updatedtableData={updatedtableData} />
-                        <div className='h-4'></div> */}
                         <SignupTable />
                     </div>
                 </div>

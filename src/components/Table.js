@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react'
+import React, { useState } from 'react'
 import tableIcon from '../assets/tableArrow.svg'
 import tableDownArrow from '../assets/tableDownArrow.svg'
 import tableUpArrow from '../assets/tableUpArrow.svg'

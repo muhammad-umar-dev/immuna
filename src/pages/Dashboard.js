@@ -12,7 +12,7 @@ import downArrow from '../assets/downArrow.svg'
 import Paginations from '../components/Paginations'
 
 
-const Dashboard = (props) => {
+const Dashboard = () => {
 
     const ETHVALUE = '0xBAD7...E116'
     const userStatus = useContext(noteContext)
@@ -28,12 +28,12 @@ const Dashboard = (props) => {
     const [isOff, setIsOff] = useState(false)
     const [isAssendingSort, setIsAssendingSort] = useState(false)
 
-    // console.log(unSortedData)
+    console.log(rows)
     useEffect(() => {
         userStatus.islogedin === true ? route('/dashboard') : route('/login')
         setSortedData([...jsonData])
         // setUnSortedData(jsonData)
-    }, [])
+    }, [userStatus.islogedin, route])
     // console.log(jsonData)
     const onCopyClick = () => {
         navigator.clipboard.writeText(ETHVALUE)
@@ -72,7 +72,7 @@ const Dashboard = (props) => {
             setIsOff(false)
         }
     }
-    // console.log(isOff)
+
 
 
 
@@ -83,16 +83,16 @@ const Dashboard = (props) => {
         },
         [setCurrentPage]
     );
-    const onLeftPageChanged = useCallback(
-        (event, page) => {
+    const onLeftPageChanged = (
+        (event) => {
             event.preventDefault();
             if (currentPage > 1) {
                 setCurrentPage(currentPage - 1)
             }
         }
     );
-    const onRightPageChanged = useCallback(
-        (event, page) => {
+    const onRightPageChanged = (
+        (event) => {
             event.preventDefault();
             setCurrentPage(Math.ceil(data.data.length / rows))
             if (currentPage < Math.ceil(data.data.length / rows)) {
@@ -100,7 +100,11 @@ const Dashboard = (props) => {
             }
         }
     )
+    const handleChange = (event) => {
 
+        setRows(event.target.value);
+
+    };
 
     return (
         <div className='bg-background-gray-0'>
@@ -145,22 +149,26 @@ const Dashboard = (props) => {
                             <Table rowsPerPage={rowsPerPage} onHandleSort={onHandleSort} isOff={isOff} isAssendingSort={isAssendingSort} />
                         </div>
                     </div>
+
+
                     {/* Footer */}
-                    <footer className='flex items-end  mb-20  mx-5 sm:mx-0 md:w-screen lg:w-full md:px-6 ' >
+                    <footer className='flex items-end  mb-20 mt-6 lg:mt-0 mx-5 sm:mx-0 md:w-screen lg:w-full md:px-6 ' >
                         <div className='flex w-full flex-col md:flex-row items-center'>
                             <div className='flex w-full justify-center sm:justify-left  md:w-[50%] h-9 '>
                                 {/* Item display per page */}
                                 <div className='flex items-center  sm:w-[50%] sm:justify-start '>
                                     <label className='font-display font-normal text-xs '>Show</label>
                                     {/* Dropdown */}
-                                    <div className="dropdown-center ml-2 ">
-                                        <button type="button" className="btn btn-light flex items-center bg-white-0 border border-blue-light-0 rounded-lg" data-bs-toggle="dropdown" >
-                                            {rows} <img className='ml-2 w-2' src={downArrow} />
-                                        </button>
-                                        <ul className="dropdown-menu dropdown-menu-end">
-                                            <li><button className="dropdown-item" type="button" onClick={() => setRows(6)}>6</button></li>
-                                            <li><button className="dropdown-item" type="button" onClick={() => setRows(12)}>12</button></li>
-                                        </ul>
+                                    <div className="dropdown dropdown-center ml-2 ">
+
+                                        <select value={rows} onChange={handleChange} className="btn btn-light flex items-center bg-white-0 border border-blue-light-0 rounded-lg" >
+                                            {rows} <img className='ml-2 w-2' src={downArrow} alt="downArrow" />
+                                            <option value={6}>6</option>
+
+                                            <option value={12}>12</option>
+
+                                        </select>
+
                                     </div>
                                     <label className='font-display font-normal text-xs ml-2 whitespace-nowrap'>results of {data.data.length} entries</label>
                                 </div>

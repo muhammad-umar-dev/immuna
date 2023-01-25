@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react'
 import noteContext from '../context/noteContext'
 import Ethereum from '../assets/ethereum.svg'
-import { Form, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const WalletLogin = () => {
     const login = useNavigate();

@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import SearchIcon from '../assets/search.svg'
 
 const Search = (props) => {
-    const { width, height, search, setSearch } = props
+    const { width, height, setSearch } = props
     const onHandleSearch = (event) => {
         setSearch(event.target.value)
     }

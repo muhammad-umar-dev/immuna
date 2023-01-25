@@ -8,9 +8,8 @@ import SignupForm from './SignupForm';
 
 let CryptoJS = require("crypto-js");
 
-const SignupTable = (props) => {
-    // props = props || {};
-    // const { tableData, setTableData, } = props
+const SignupTable = () => {
+
     const [tableData, setTableData] = useState([])
     const updatedtableData = [...tableData]
 
@@ -38,23 +37,16 @@ const SignupTable = (props) => {
     }
 
     const addRows = (data) => {
-        // console.log('addRows', data)
         const totalRecord = tableData.length;
         let newData = updatedtableData.filter(row => row.id !== data.id)
-        // console.log('newData', newData)
         const newID = isUpdate ? data.id : data.id = totalRecord + 1;
         data.id = newID
-
-        // return setTableData(newData)
-
         //    Password Encrypted
         data.password = CryptoJS.AES.encrypt(JSON.stringify(data.password), 'my-secret-key@123').toString();
-        // console.log("table data", updatedtableData.push(data))
         newData.push(data)
-        // console.log("push data", data)
-        // console.log("newData 1", newData.push(data))
+
         const sortedData = newData.sort((a, b) => a.id - b.id)
-        // console.log(sortedData)
+
         setTableData(sortedData)
     }
 

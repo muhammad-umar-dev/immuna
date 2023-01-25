@@ -20,21 +20,9 @@ const Paginations = (props) => {
     const [totalPages, setTotalPages] = useState(0);
     useEffect(() => {
         setTotalPages(Math.ceil(totalRecords / pageLimit));
-    });
+    }, [totalPages, totalRecords, pageLimit]);
 
-    // const fetchPageNumbers = () => {
-    //     const totalNumbers = pageNeighbours * 2 + 1;
-    //     const totalBlocks = totalNumbers;
-    //     if (totalPages > totalBlocks) {
-    //         const startPage = Math.max(currentPage + 1);
-    //         const endPage = Math.min(totalPages - 1, currentPage + pageNeighbours);
 
-    //         let pages = range(startPage, endPage)
-
-    //         return [LEFT_PAGE, 1, ...pages, "...", totalPages, RIGHT_PAGE];
-    //     }
-    //     return range(1, totalPages);
-    // }
 
     const fetchPageNumbers = () => {
         const totalNumbers = pageNeighbours * 2 + 3;
@@ -99,7 +87,7 @@ const Paginations = (props) => {
                                     // onClick={(e) => onRightPageChanged(e, pageNeighbours)}
                                     onClick={(e) => onRightPageChanged(e, pageNeighbours * 2 + 3)}
                                 >
-                                    <span className=" " aria-hidden="true"><img src={rightArrow} /></span>
+                                    <span className=" " aria-hidden="true"><img src={rightArrow} alt="rightaArrow" /></span>
                                 </a>
                             </li>
                         );
