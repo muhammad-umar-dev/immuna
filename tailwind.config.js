@@ -43,10 +43,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         // Simple 16 column grid
-        '7': '1fr repeat(2, 2fr) 3fr repeat(2, 1fr) 3fr',
-
-        // Complex site-specific column configuration
-        'footer': '200px minmax(900px, 1fr) 100px',
+        '7': 'repeat(3, 1fr) 3fr repeat(2, 1fr) 2fr',
       }
 
     },

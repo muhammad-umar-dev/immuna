@@ -92,21 +92,19 @@ const SignupTable = () => {
 
     const tableRows = tableData.map((info, index) => {
         return (
-
-            <div className={` grid grid-cols-7 gap-4 font-display font-light lg:font-normal text-sm lg:text-sm h-[61px]  w-full justify-between ${info.id % 2 ? "bg-white-0-0" : "bg-blue-table-0"}`} key={index}>
-                <div className='grid justify-center items-center font-display font-light lg:font-normal text-sm lg:text-sm'>{info.id}</div>
-                <div className='grid justify-center items-center font-display font-light lg:font-normal text-sm lg:text-sm  '>{info.firstName}</div>
-                <div className='grid justify-center items-center font-display font-light lg:font-normal text-sm lg:text-sm'>{info.lastName}</div>
-                <div className='grid justify-center items-center font-display font-light lg:font-normal text-sm lg:text-sm'>{info.email}</div>
-                {/* <div className='w-[17.5%] justify-center items-center flex truncate  px-2'>{info.password}</div> */}
-                <div className='grid justify-center items-center font-display font-light lg:font-normal text-sm lg:text-sm '>{info.role}</div>
-                <div className='grid  justify-center items-center font-display font-light lg:font-normal text-sm lg:text-sm'>{info.access}</div>
+            <tr className={` grid grid-cols-7 gap-4 font-display font-light lg:font-normal text-sm lg:text-sm h-[61px]  w-full justify-between  ${info.id % 2 ? "bg-white-0-0" : "bg-blue-table-0"}`} key={index}>
+                <td className='grid w-40 lg:w-auto justify-center items-center font-display font-light lg:font-normal text-sm lg:text-sm'>{info.id}</td>
+                <td className='grid w-40 lg:w-auto justify-center items-center font-display font-light lg:font-normal text-sm lg:text-sm  '>{info.firstName}</td>
+                <td className='grid w-40 lg:w-auto justify-center items-center font-display font-light lg:font-normal text-sm lg:text-sm'>{info.lastName}</td>
+                <td className='grid w-40 lg:w-auto justify-center items-center font-display font-light lg:font-normal text-sm lg:text-sm'>{info.email}</td>
+                <td className='grid w-40 lg:w-auto justify-center items-center font-display font-light lg:font-normal text-sm lg:text-sm '>{info.role}</td>
+                <td className='grid w-40 lg:w-auto  justify-center items-center font-display font-light lg:font-normal text-sm lg:text-sm'>{info.access}</td>
                 {/* Action  */}
-                <div className='flex justify-evenly items-center font-display font-light lg:font-normal text-sm lg:text-sm'>
+                <td className='flex w-40 lg:w-auto justify-evenly items-center font-display font-light lg:font-normal text-sm lg:text-sm'>
                     <button onClick={() => onHandleUpdate(info)} className='ml-2 bg-blue-medium-0 text-white font-mono p-2 rounded'><img src={EditIcon} alt="" /></button>
-                    <button onClick={() => askConfirmDelete(info)} className='bg-blue-medium-0 text-white font-mono p-2 rounded'><img src={DeleteIcon} alt="" /></button></div>
+                    <button onClick={() => askConfirmDelete(info)} className='bg-blue-medium-0 text-white font-mono p-2 rounded'><img src={DeleteIcon} alt="" /></button></td>
 
-            </div>
+            </tr>
 
         );
     });
@@ -121,41 +119,25 @@ const SignupTable = () => {
 
 
             {/* Table */}
-            <div className='w-full flex flex-col py-5   justify-center items-center '>
+            <div className=' overflow-x-auto'>
+                <table className='w-full  py-5 justify-center items-center '>
+                    <thead>
+                        <tr className='bg-blue-lighter-0 rounded grid grid-cols-7 gap-4 place-items-center h-[61px] justify-between'>
+                            <th scope='cols' className='grid w-40 lg:w-auto justify-center items-center font-display font-light lg:font-bold text-sm lg:text-sm '>Sr.NO</th>
+                            <th scope='cols' className='grid w-40 lg:w-auto justify-center items-center font-display font-light lg:font-bold text-sm lg:text-sm '>First Name</th>
+                            <th scope='cols' className='grid w-40 lg:w-auto justify-center items-center font-display font-light lg:font-bold text-sm lg:text-sm '>Last Name</th>
+                            <th scope='cols' className='grid w-40 lg:w-auto justify-center items-center font-display font-light lg:font-bold text-sm lg:text-sm '>Email</th>
+                            <th scope='cols' className='grid w-40 lg:w-auto justify-center items-center font-display font-light lg:font-bold text-sm lg:text-sm '>Role</th>
+                            <th scope='cols' className='grid w-40 lg:w-auto justify-center items-center font-display font-light lg:font-bold text-sm lg:text-sm '>Access</th>
+                            <th scope='cols' className='grid w-40 lg:w-auto justify-center items-center
+                        font-display font-light lg:font-bold text-sm lg:text-sm '>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody className=''>{tableRows}</tbody>
 
-                <div className='flex justify-center items-start w-full overflow-x-auto px-2  '>     {/*lg:w-1/2 */}
 
-                    <div className='grid grid-cols-7 gap-4 h-[61px] justify-between w-full bg-blue-lighter-0 rounded-t-lg'>
-                        <div className='grid justify-center items-center font-display font-light lg:font-bold text-sm lg:text-sm '>Sr.NO</div>
-                        <div className='grid justify-center items-center font-display font-light lg:font-bold text-sm lg:text-sm '>First Name</div>
-                        <div className='grid justify-center items-center font-display font-light lg:font-bold text-sm lg:text-sm '>Last Name</div>
-                        <div className='grid justify-center items-center font-display font-light lg:font-bold text-sm lg:text-sm '>Email</div>
-                        <div className='grid justify-center items-center font-display font-light lg:font-bold text-sm lg:text-sm '>Role</div>
-                        <div className='grid justify-center items-center font-display font-light lg:font-bold text-sm lg:text-sm '>Access</div>
-                        <div className='grid justify-center items-center
-                        font-display font-light lg:font-bold text-sm lg:text-sm '>Action</div>
-                    </div>
-
-
-
-                    {/* <table table className="w-full mx-4 p-4 table justify-center items-center bg-white-0 rounded" >
-                        <thead>
-                        <tr className='font-display font-light lg:font-normal text-sm lg:text-sm h-[61px] flex  justify-between w-full bg-blue-lighter-0 rounded-t-lg'>
-                        <th scope='col' className='w-[10%] justify-center items-center flex'>Sr.NO</th>
-                        <th scope='col' className='w-[10%] justify-center items-center flex'>First Name</th>
-                        <th scope='col' className='w-[10%] justify-center items-center flex '>Last Name</th>
-                        <th scope='col' className='w-[17.5%] justify-center items-center flex '>Email</th>
-                                <th scope='col' className='w-[17.5%] justify-center items-center flex '>Password</th>
-                                <th scope='col' className='w-[10%] justify-center items-center flex'>Role</th>
-                                <th scope='col' className='w-[10%] justify-center items-center flex'>Access</th>
-                                <th scope='col' className='w-[15%] justify-center items-center flex'>Action</th>
-                            </tr>
-                        </thead>
-                        <tbody>{tableRows}</tbody>
-                    </table> */}
-                </div>
-                <div className='grid'>{tableRows}</div>
-            </div >
+                </table >
+            </div>
         </div>
     )
 }
