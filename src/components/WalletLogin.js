@@ -34,7 +34,7 @@ const WalletLogin = () => {
                     <input
                         className={`flex w-[85%] sm:w-full h-10 lg:w-[450px] lg:h-[65px] bg-gray-light-0 rounded-full font-display font-normal text-sm my-5 px-8 justify-center items-center outline-none `}
                         type='text/plain' required
-                        placeholder='Enter wallet address '
+                        placeholder='Enter wallet address (umar) '
                         onChange={onChangehandler} >
                     </input>
                     <button className='flex w-[85%] sm:w-full h-10 lg:h-[65px]  lg:mt-14 lg:mb-[208px]  bg-blue-0 rounded-full font-display font-medium text-lg  text-white-0 justify-center items-center  outline-none'

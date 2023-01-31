@@ -1,5 +1,5 @@
 import React from 'react'
-import { PieChart, Pie, Tooltip, BarChart, XAxis, YAxis, Legend, CartesianGrid, Bar, ResponsiveContainer } from "recharts";
+import { Tooltip, BarChart, XAxis, YAxis, Legend, CartesianGrid, Bar, ResponsiveContainer } from "recharts";
 import { LineChart, Line, AreaChart, Area } from 'recharts';
 const ReCharts = () => {
     const data = [
@@ -42,59 +42,6 @@ const ReCharts = () => {
         <div className='w-full  flex flex-col justify-center items-center'>
             <div className='flex w-full justify-center items-center font-display font-semibold text-5xl py-4 '><h1>Data</h1></div>
 
-            <div className='flex w-full h-full flex-col lg:flex-row justify-center items-center'>
-                {/* Pie Chart */}
-                <div className="flex w-full lg:w-1/2  justify-center items-center">
-
-                    <PieChart width="100%" height={400}>
-                        <Pie
-                            dataKey="users"
-                            isAnimationActive={false}
-                            data={data}
-                            cx={200}
-                            cy={200}
-                            outerRadius={80}
-                            fill="#1D7DEA"
-                            label
-                        />
-
-
-                        <Tooltip />
-                    </PieChart>
-
-                </div>
-
-
-
-                {/* Barchart */}
-                <div className='flex w-full lg:w-1/2 justify-center items-center'>
-                    <ResponsiveContainer
-                        width="100%" height={400}
-                    >
-                        <BarChart
-                            data={data}
-                            margin={{
-                                top: 5, right: 30, left: 80, bottom: 5,
-                            }}
-                            barSize={20}
-                        >
-                            <XAxis
-                                dataKey="name"
-                                scale="point"
-                                padding={{ left: 10, right: 10 }}
-                            />
-                            <YAxis />
-                            <Tooltip />
-                            <Legend />
-                            <CartesianGrid strokeDasharray="3 3" />
-                            <Bar dataKey="users" fill="#1D7DEA" background={{ fill: "#eee" }} />
-                        </BarChart>
-                    </ResponsiveContainer>
-                </div>
-
-            </div>
-
-
             <div className="flex w-full h-full flex-col lg:flex-row justify-center items-center">
 
                 <div className='flex w-full lg:w-1/2'>
@@ -132,6 +79,35 @@ const ReCharts = () => {
                     </ResponsiveContainer>
                 </div>
                 {/* </ResponsiveContainer> */}
+
+            </div>
+
+            <div className='flex w-full h-full flex-col lg:flex-row justify-center items-center'>
+                {/* Barchart */}
+                <div className='flex w-full lg:w-1/2 justify-center items-center'>
+                    <ResponsiveContainer
+                        width="100%" height={400}
+                    >
+                        <BarChart
+                            data={data}
+                            margin={{
+                                top: 5, right: 30, left: 80, bottom: 5,
+                            }}
+                            barSize={20}
+                        >
+                            <XAxis
+                                dataKey="name"
+                                scale="point"
+                                padding={{ left: 10, right: 10 }}
+                            />
+                            <YAxis />
+                            <Tooltip />
+                            <Legend />
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <Bar dataKey="users" fill="#1D7DEA" background={{ fill: "#eee" }} />
+                        </BarChart>
+                    </ResponsiveContainer>
+                </div>
             </div>
         </div>
     )
